@@ -1,0 +1,31 @@
+{
+  "name": "discord-music-bot",
+  "version": "2.0.0",
+  "description": "🎵 A feature-rich Discord music bot with slash commands, audio filters, lyrics, DJ roles, and more.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "deploy": "node src/deploy-commands.js"
+  },
+  "keywords": ["discord", "music", "bot", "distube"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@distube/soundcloud": "^2.0.0",
+    "@distube/spotify": "^2.0.0",
+    "@distube/yt-dlp": "^2.0.0",
+    "chalk": "^4.1.2",
+    "discord.js": "^14.15.0",
+    "distube": "^4.2.3",
+    "dotenv": "^16.4.5",
+    "genius-lyrics": "^4.4.5",
+    "node-fetch": "^2.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
