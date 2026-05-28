@@ -27,7 +27,6 @@ client.distube = new DisTube(client, {
     new SpotifyPlugin(),
     new SoundCloudPlugin(),
   ],
-  ffmpegPath: process.env.FFMPEG_PATH || 'ffmpeg',
   emitNewSongOnly: true,
   joinNewVoiceChannel: true,
   nsfw: false,
