@@ -1,5 +1,5 @@
 [phases.setup]
-nixPkgs = ["nodejs_20", "ffmpeg-full", "python3", "yt-dlp"]
+nixPkgs = ["nodejs_20", "ffmpeg", "python3", "yt-dlp"]
 
 [phases.install]
 cmds = ["npm install --legacy-peer-deps"]
